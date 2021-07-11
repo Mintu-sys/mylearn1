@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '/wdgets/drawer.dart';
 
 class Homepage extends StatelessWidget {
   @override
@@ -12,7 +13,7 @@ class Homepage extends StatelessWidget {
           child: Text("This is Center Text"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }

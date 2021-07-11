@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
         fontFamily: GoogleFonts.raleway().fontFamily,
       ),
       routes: {
-        "/": (context) => LoginPage(),
-        "/login": (context) => Homepage()
+        "/": (context) => Homepage(),
+        "/login": (context) => LoginPage()
       },
     );
   }
